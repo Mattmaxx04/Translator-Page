@@ -3,4 +3,28 @@
     --blue:#0A1128;
     --lightblue:#006FE6;
     --light:#FEFCFB;
+    --titulos:'baloo 2', cursive;
+    --parrafos:'montserrat', sans-serif;
 }
+
+html{
+    box-sizing: border-box; 
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+*,*::before, *::after{
+    box-sizing:inherit;
+}
+
+h1, h2, h3{
+    font-family: var(--titulos);
+}
+
+p,a{
+    font-family: var(--parrafos);
+}
+
