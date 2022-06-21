@@ -1,3 +1,4 @@
+/*global*/
 :root{
     --dark:#07070A; 
     --blue:#0A1128;
@@ -26,5 +27,44 @@ h1, h2, h3{
 
 p,a{
     font-family: var(--parrafos);
+}
+
+.hide{
+    display:none;
+
+}
+
+/*header*/
+.header{
+    background-image: url('../img/fondo.jpg');
+    background-repeat: no-repeat;
+    height:100vh;
+    min-height: 70rem;
+    background-size: cover;
+    background-position: center center;
+}
+
+.logo h2{
+    font-size: 3rem;
+}
+
+.logo h2 span{
+    color: var(--lightblue);
+}
+
+.navcont{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--light);
+    box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.45);
+}
+
+.burguer span{
+    width:5rem;
+    height:1rem;
+    border: 3px solid var(--light);
+    background-color: var(--dark);
+    display: block;
 }
 
