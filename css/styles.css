@@ -31,8 +31,17 @@ p,a{
 
 .hide{
     display:none;
-
 }
+
+@keyframes move{
+    0%{
+        transform:translateX(-100%);
+    }
+    100%{
+        transform:translateX(0%);
+    }
+}
+
 
 /*header*/
 .header{
@@ -42,8 +51,24 @@ p,a{
     min-height: 70rem;
     background-size: cover;
     background-position: center center;
+    position: relative;
 }
 
+.header::before{
+    content:'';
+    position:absolute;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+
+.logobc{
+    width:4rem;
+    padding-bottom: 0.5rem;
+}
 .logo h2{
     font-size: 3rem;
 }
@@ -60,11 +85,58 @@ p,a{
     box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.45);
 }
 
+.navbar{
+    position: absolute;
+    left: 0;
+    top: 70px;
+    width:100%;
+    background-color: var(--light);
+    animation: move .5s ease-in-out;
+}
+
+
+.navbar a{
+    display: block;
+    font-size: 2rem;
+    padding:1.1rem;
+    color: var(--dark);
+    text-decoration: none;
+    transition: background-color .3s ease-in-out;
+}
+
+.navbar a:hover{
+    background-color: var(--lightblue);
+    color: var(--light);
+}
+
 .burguer span{
     width:5rem;
     height:1rem;
     border: 3px solid var(--light);
     background-color: var(--dark);
     display: block;
+}
+
+/*media querys*/
+@media(min-width: 768px){
+    .burguer{
+        display:none;
+    }
+
+    .hide{
+        display: inline;
+    }
+
+    .navbar a{
+        display: inline;        
+    }
+    
+    .navbar{
+        position:relative;
+        top: unset;
+        width: auto;
+        background-color: unset;
+        animation: unset;
+    }
 }
 
