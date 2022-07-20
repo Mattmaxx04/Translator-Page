@@ -1,16 +1,15 @@
-# Bhares 11:11
+# Luz Carrizo traducciones
 
 
 
 [![](img/made-with-html-css-js2.svg)]()
-[![](assets/made-with-html-css-js.svg)]()
 
-_Página comercial. Panadería y repostería artesanal._
-_Se tuvo en cuenta una estética para la creación tanto de la marca, el logo y la web. El sitio es totalmente responsive._
+_Página comercial. Traducciones inglés/Español._
+_La web se realizo con la premisa "mobile first", cuenta con un efecto paralax y navbar "position-fixed"._
 
- [![](assets/bhares1.png)]()
- [![](assets/bhares2.png)]()
+ [![](img/luzcarrizo.png)]()
+ [![](img/luzcarrizo2.png)]()
  
-*Podés visitar [Bhares 11:11](https://bhares1111.netlify.app).*
+*Podés visitar [Luz Carrizo traucciones](https://luzcarrizo.netlify.app).*
 
 
