@@ -10,6 +10,5 @@ _La web se realizo con la premisa "mobile first", cuenta con un efecto paralax y
  [![](img/luzcarrizo.png)]()
  [![](img/luzcarrizo2.png)]()
  
-*Podés visitar [Luz Carrizo traducciones](https://luzcarrizo.netlify.app).*
 
 
